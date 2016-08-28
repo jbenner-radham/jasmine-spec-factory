@@ -1,24 +1,30 @@
 {
   "name": "jasmine-spec-factory",
-  "bin": {
-    "jasmine-spec-factory": "./cli.js"
-  },
-  "engines": {
-    "node": "~5.8"
-  },
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An opinionated Jasmine spec generator for AMD modules.",
   "main": "index.js",
-  "scripts": {
-    "test": "eslint . && jasmine"
-  },
-  "author": "James Benner",
-  "license": "MIT",
   "dependencies": {
     "acorn": "^3.3.0"
   },
   "devDependencies": {
     "eslint": "^3.4.0",
     "jasmine": "^2.4.1"
+  },
+  "scripts": {
+    "test": "eslint . && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenner-radham/jasmine-spec-factory.git"
+  },
+  "keywords": ["Jasmine", "Spec", "Generator", "Testing", "AMD"],
+  "author": "James Benner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenner-radham/jasmine-spec-factory/issues"
+  },
+  "homepage": "https://github.com/jbenner-radham/jasmine-spec-factory#readme",
+  "engines": {
+    "node": "~5.8"
   }
 }
