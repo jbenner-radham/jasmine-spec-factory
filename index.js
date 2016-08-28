@@ -22,7 +22,9 @@ module.exports = function () {
 
     try {
         moduleName = source.match(/ @exports ([\w\/]+)/).slice(1, 2).shift();
-    } catch (_) {}
+    } catch (_) {
+        // Do nothing.
+    }
 
     let ast                      = acorn.parse(source);
     let module                   = ast.body[0].expression.arguments.filter(argument => argument.type === 'FunctionExpression')[0];
@@ -35,7 +37,7 @@ module.exports = function () {
     let publicMethodNames        = publicMethods.map(method => method.key.value).sort();
 
     let head = `define(["${moduleName}"], function (module) {` + "\n" +
-	    "\t" + `"use strict"` + "\n";
+        "\t" + `"use strict"` + "\n";
 
     let specs = publicMethodNames.map(methodName => {
         let methodSpec = "\t" + `describe("${methodName}", function () {` + "\n" +
