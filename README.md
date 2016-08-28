@@ -9,13 +9,13 @@ An opinionated Jasmine spec generator for AMD modules.
 Installation
 ------------
 ```sh
-$ npm install && chmod +x cli.js
+$ npm install -g jasmine-spec-factory
 ```
 
 Usage
 -----
 ```sh
-./cli.js ~/Documents/path/to/an/amd/module.js
+jasmine-spec-factory ~/Documents/path/to/an/amd/module.js
 ```
 
 Testing
