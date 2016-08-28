@@ -24,6 +24,11 @@ Testing
 $ npm test
 ```
 
+Issues
+------
+- Module name generation requires it to be documented via [JSDoc's](http://usejsdoc.org/) [`@export`](http://usejsdoc.org/tags-exports.html) tag.
+- Does not work on all modules yet.
+
 License
 -------
 The MIT License (Expat). See the [license file](LICENSE) for details.
