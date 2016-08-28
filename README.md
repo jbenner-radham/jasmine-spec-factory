@@ -1,5 +1,5 @@
-Jasmine Spec Generator
-======================
+Jasmine Spec Factory
+====================
 [![npm Version][NPM VERSION BADGE]][NPM PAGE]
 [![GitHub License][LICENSE BADGE]][LICENSE PAGE]
 [![Build Status][BUILD BADGE]][BUILD PAGE]
