@@ -26,7 +26,7 @@ $ npm test
 
 Issues
 ------
-- Module name generation requires it to be documented via [JSDoc's](http://usejsdoc.org/) [`@export`](http://usejsdoc.org/tags-exports.html) tag.
+- Module name generation requires it to be documented via [JSDoc's](http://usejsdoc.org/) [`@exports`](http://usejsdoc.org/tags-exports.html) tag.
 - Does not work on all modules yet.
 
 License
