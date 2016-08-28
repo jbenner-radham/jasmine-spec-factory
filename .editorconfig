@@ -1,0 +1,33 @@
+# EditorConfig is awesome <http://editorconfig.org>
+
+# Top-most EditorConfig file.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.abnf]
+indent_size = 2
+indent_style = space
+
+[*.hbs]
+insert_final_newline = false
+
+[*.md]
+trim_trailing_whitespace = false
+
+# Tab indentation for Make targets.
+# @see <http://pubs.opengroup.org/onlinepubs/9699919799/utilities/make.html#tag_20_76_13_04>
+[{M,m}akefile]
+indent_style = tab
+
+# The indent size used in the "package.json" file cannot be changed.
+# @see <https://github.com/npm/npm/pull/3180#issuecomment-16336516>
+[{npm-shrinkwrap.json,package.json}]
+indent_size = 2
+indent_style = space
