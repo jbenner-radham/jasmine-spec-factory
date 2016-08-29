@@ -10,6 +10,9 @@ Unreleased
 ### Added
 - Added an "Issues" section to the README.
 
+### Changed
+- Updated the "Install" section of the README.
+
 0.2.0 - 2016-08-28
 ------------------
 ### Added

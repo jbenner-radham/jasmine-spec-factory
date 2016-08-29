@@ -9,7 +9,7 @@ An opinionated Jasmine spec generator for AMD modules.
 Installation
 ------------
 ```sh
-$ npm install -g jasmine-spec-factory
+$ npm install --global jasmine-spec-factory
 ```
 
 Usage
