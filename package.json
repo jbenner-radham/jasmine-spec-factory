@@ -4,7 +4,8 @@
   "description": "An opinionated Jasmine spec generator for AMD modules.",
   "main": "index.js",
   "dependencies": {
-    "acorn": "^3.3.0"
+    "acorn": "^3.3.0",
+    "chalk": "^1.1.3"
   },
   "devDependencies": {
     "eslint": "^3.4.0",
@@ -17,7 +18,13 @@
     "type": "git",
     "url": "git+https://github.com/jbenner-radham/jasmine-spec-factory.git"
   },
-  "keywords": ["Jasmine", "Spec", "Generator", "Testing", "AMD"],
+  "keywords": [
+    "Jasmine",
+    "Spec",
+    "Generator",
+    "Testing",
+    "AMD"
+  ],
   "author": "James Benner",
   "license": "MIT",
   "bugs": {
