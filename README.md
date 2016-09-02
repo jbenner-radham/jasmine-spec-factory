@@ -24,6 +24,11 @@ Testing
 $ npm test
 ```
 
+Opinions
+--------
+- All public methods are assigned to a variable named `publicMembers`.
+- All property names are enclosed in double quotes.
+
 Issues
 ------
 - Module name generation requires it to be documented via [JSDoc's](http://usejsdoc.org/) [`@exports`](http://usejsdoc.org/tags-exports.html) tag.

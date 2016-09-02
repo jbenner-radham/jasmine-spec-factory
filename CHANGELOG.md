@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+Unreleased
+----------
+### Added
+- Added an "Opinions" section to the README.
+
+### Changed
+- Converted the spec rendering over to Handlebars templates from ES6 template strings.
+
 0.3.0 - 2016-08-30
 ------------------
 ### Added

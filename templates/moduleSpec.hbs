@@ -1,0 +1,24 @@
+define(["{{moduleName}}"], function (module) {
+    "use strict";
+
+    describe("{{moduleName}}", function () {
+        {{#each vars}}
+            {{> varSpec }}
+            {{#unless @last}}
+                {{!-- Insert empty line between specs. --}}
+
+            {{/unless}}
+        {{/each}}
+        {{#if vars}}
+            {{!-- Insert empty line after specs. --}}
+
+        {{/if}}
+        {{#each methods}}
+            {{> methodSpec }}
+            {{#unless @last}}
+                {{!-- Insert empty line between specs. --}}
+
+            {{/unless}}
+        {{/each}}
+    });
+});
