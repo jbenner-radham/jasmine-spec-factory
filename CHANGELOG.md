@@ -5,13 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-Unreleased
-----------
+0.4.0 - 2016-09-04
+------------------
 ### Added
 - Added an "Opinions" section to the README.
+- Added initial `AST` spec.
 
 ### Changed
 - Converted the spec rendering over to Handlebars templates from ES6 template strings.
+- Updated the base template for properties.
 
 0.3.0 - 2016-08-30
 ------------------
