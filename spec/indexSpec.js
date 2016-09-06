@@ -1,4 +1,4 @@
-describe('Jasmine Spec Factory', function () {
+describe('jasmine-spec-factory', function () {
     'use strict';
 
     const module = require('../lib');
