@@ -170,7 +170,7 @@
     },
     "yargs": {
       "version": "3.10.0",
-      "from": "yargs@>=3.10.0 <3.11.0",
+      "from": "https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz",
       "resolved": "https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz"
     }
   }
