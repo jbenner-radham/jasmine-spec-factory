@@ -11,13 +11,15 @@ meow(`
         $ ${pkg.name} <filename>
 
     ${chalk.bold('Options')}
-        --help, -h  Display this page.
+        --help, -h       Display this information.
+        --version, -v    Display the version number.
 
     ${chalk.bold('Examples')}
         $ ${pkg.name} ~/path/to/an/amd/module.js
 `, {
     alias: {
-        h: 'help'
+        h: 'help',
+        v: 'version'
     }
 });
 
