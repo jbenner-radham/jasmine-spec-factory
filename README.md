@@ -26,7 +26,8 @@ $ npm test
 
 Opinions
 --------
-- All public methods are properties assigned to a variable named `publicMembers` which is returned from the AMD module.
+- Modules are AMD.
+- All public methods are properties assigned to a variable named `publicMembers` which is an object returned from the module.
 - All property names are enclosed in double quotes.
 
 Issues
