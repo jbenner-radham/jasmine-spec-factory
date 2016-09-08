@@ -9,7 +9,7 @@ Unreleased
 ----------
 ### Added
 - Implemented a `gulpfile.js` for testing.
-- Implemented Yargs for the CLI interface.
+- Implemented Meow for the CLI interface.
 
 0.4.1 - 2016-09-07
 ------------------
