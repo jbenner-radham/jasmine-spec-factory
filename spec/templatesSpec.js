@@ -1,7 +1,7 @@
 describe('templates', function () {
     'use strict';
 
-    const templates = require('../lib/templates');
+    const templates = require('../lib/Templates');
 
     it('is a class', function () {
         expect(templates).toEqual(jasmine.any(Function));
