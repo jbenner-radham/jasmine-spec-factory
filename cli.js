@@ -4,7 +4,7 @@
 
 const chalk = require('chalk');
 const meow  = require('meow');
-const pkg   = require('././package.json');
+const pkg   = require('./package.json');
 
 meow(`
     ${chalk.bold('Usage')}

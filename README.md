@@ -15,7 +15,7 @@ $ npm install --global jasmine-spec-factory
 Usage
 -----
 ```sh
-$ jasmine-spec-factory ~/Documents/path/to/an/amd/module.js
+$ jasmine-spec-factory ~/path/to/an/amd/module.js
 ```
 
 Testing
